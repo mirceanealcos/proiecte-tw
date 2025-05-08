@@ -1,0 +1,14 @@
+<!-- src/app/components/login/login.component.html -->
+<h2>Login</h2>
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div>
+    <label>Username</label>
+    <input name="username" ngModel required placeholder="admin">
+  </div>
+  <div>
+    <label>Password</label>
+    <input name="password" type="password" ngModel required placeholder="admin">
+  </div>
+  <button type="submit">Login</button>
+</form>
+<div *ngIf="eroare" class="error">Autentificare eșuată!</div>

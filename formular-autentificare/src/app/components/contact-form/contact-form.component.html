@@ -1,0 +1,14 @@
+<h2>Contact</h2>
+<form [formGroup]="contactForm" (ngSubmit)="submit()">
+  <label>Email</label>
+  <input formControlName="email" placeholder="Email">
+  <div *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched" class="error">
+    Email invalid!
+  </div>
+  <label>Mesaj</label>
+  <textarea formControlName="mesaj" placeholder="Scrie mesajul"></textarea>
+  <div *ngIf="contactForm.get('mesaj')?.invalid && contactForm.get('mesaj')?.touched" class="error">
+    Min 10 caractere.
+  </div>
+  <button type="submit">Trimite</button>
+</form>
