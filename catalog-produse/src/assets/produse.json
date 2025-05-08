@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nume": "Laptop HP", "pret": 3500, "imagine": "https://lcdn.altex.ro/media/catalog/product/l/a/lap7h690ea_6_8a939ca6.jpg" },
+  { "id": 2, "nume": "Telefon Samsung", "pret": 2800, "imagine": "https://s13emagst.akamaized.net/products/62395/62394600/images/res_aa43ef7f56cdb58a3f2f0a5d1bd56b6e.jpg?width=720&height=720&hash=DAD6949690B8D3BF6C3F76D7B8D492D5" },
+  { "id": 3, "nume": "Monitor LG", "pret": 1200, "imagine": "https://lcdn.altex.ro/media/catalog/product/2/2/22mr410_b_gallery_01_3000x3000_4dba664d.jpg" }
+]
